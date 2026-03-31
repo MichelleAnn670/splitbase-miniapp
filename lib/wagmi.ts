@@ -1,14 +1,12 @@
-'use client'
+import { getDefaultConfig } from "@rainbow-me/rainbowkit";
+import { base } from "wagmi/chains";
 
-import { createConfig, http } from 'wagmi'
-import { base } from 'wagmi/chains'
-import { coinbaseWallet } from '@wagmi/connectors'
-import { injected } from '@wagmi/core'
+const walletConnectProjectId =
+  process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "splitbase-dev-project-id";
 
-export const wagmiConfig = createConfig({
+export const wagmiConfig = getDefaultConfig({
+  appName: process.env.NEXT_PUBLIC_APP_NAME || "SplitBase",
+  projectId: walletConnectProjectId,
   chains: [base],
-  connectors: [coinbaseWallet({ appName: 'OpenPoll' }), injected()],
-  transports: {
-    [base.id]: http(),
-  },
-})
+  ssr: true,
+});

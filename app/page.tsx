@@ -1,5 +1,5 @@
-import { FeedPage } from '@/components/feed-page'
+import { SplitDashboard } from "@/components/split-dashboard";
 
-export default function Home() {
-  return <FeedPage />
+export default function DashboardPage() {
+  return <SplitDashboard />;
 }

@@ -133,3 +133,14 @@ App metadata is defined in:
 
 ```text
 app/layout.tsx
+```
+
+The Farcaster manifest is located at:
+
+```text
+public/.well-known/farcaster.json
+```
+
+Contract configuration and builder-related notes are kept in:
+
+```text

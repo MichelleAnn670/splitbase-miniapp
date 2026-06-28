@@ -163,3 +163,15 @@ public/.well-known/farcaster.json
 ```
 
 Use the final deployed domain for all public metadata URLs.
+
+## Contract Details
+
+Network target:
+
+```text
+Base Mainnet
+```
+
+Contract:
+
+```text

@@ -144,3 +144,13 @@ public/.well-known/farcaster.json
 Contract configuration and builder-related notes are kept in:
 
 ```text
+lib/contracts.ts
+README.md
+```
+
+## Updating the Production Domain
+
+Before production release, update:
+
+```bash
+NEXT_PUBLIC_APP_URL

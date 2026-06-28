@@ -50,3 +50,13 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/MichelleAnn670/splitbase-miniapp.git
+cd splitbase-miniapp
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+## Environment Setup

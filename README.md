@@ -196,3 +196,13 @@ Encoded String:
 2. Connect a supported wallet.
 3. Review the current split status.
 4. Inspect payee ratios and release information.
+5. If funds are available, submit a `release()` claim.
+6. Confirm the transaction on Base Mainnet.
+
+## Notes
+
+- The app is intended for the deployed Base Mainnet contract listed above.
+- Keep the deployed contract integration path stable when extending the project.
+- If attribution is expanded later, keep changes additive.
+- Update Farcaster metadata whenever the production domain changes.
+- Verify environment variables before deploying to production.

@@ -80,3 +80,15 @@ NEXT_PUBLIC_APP_NAME=SplitBase
 `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID`
 
 WalletConnect project id used by RainbowKit.
+
+`NEXT_PUBLIC_APP_URL`
+
+The public app domain used for Mini App and Farcaster metadata.
+
+`NEXT_PUBLIC_APP_NAME`
+
+The public app name. The default value is:
+
+```bash
+SplitBase
+```

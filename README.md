@@ -185,3 +185,14 @@ bc_mgy7zx08
 ```
 
 Encoded String:
+
+```text
+0x62635f6d6779377a7830380b0080218021802180218021802180218021
+```
+
+## Usage
+
+1. Open the deployed SplitBase app.
+2. Connect a supported wallet.
+3. Review the current split status.
+4. Inspect payee ratios and release information.

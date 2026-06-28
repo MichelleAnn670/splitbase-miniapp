@@ -175,3 +175,13 @@ Base Mainnet
 Contract:
 
 ```text
+0xa128bd5452a5dd6e945927b12563c687794b0bfb
+```
+
+Builder Code:
+
+```text
+bc_mgy7zx08
+```
+
+Encoded String:

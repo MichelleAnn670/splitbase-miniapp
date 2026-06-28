@@ -122,3 +122,14 @@ vercel
 ```
 
 Deploy to production:
+
+```bash
+vercel --prod
+```
+
+## Base Mini App Metadata
+
+App metadata is defined in:
+
+```text
+app/layout.tsx

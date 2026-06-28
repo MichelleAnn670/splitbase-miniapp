@@ -154,3 +154,12 @@ Before production release, update:
 
 ```bash
 NEXT_PUBLIC_APP_URL
+```
+
+Also replace placeholder URLs in:
+
+```text
+public/.well-known/farcaster.json
+```
+
+Use the final deployed domain for all public metadata URLs.

@@ -71,3 +71,12 @@ Update `.env.local` with the required values:
 
 ```bash
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=
+NEXT_PUBLIC_APP_URL=
+NEXT_PUBLIC_APP_NAME=SplitBase
+```
+
+### Environment Variables
+
+`NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID`
+
+WalletConnect project id used by RainbowKit.

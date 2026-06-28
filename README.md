@@ -92,3 +92,13 @@ The public app name. The default value is:
 ```bash
 SplitBase
 ```
+
+## Local Development
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in your terminal.

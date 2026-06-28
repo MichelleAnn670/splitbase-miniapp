@@ -19,3 +19,12 @@ The main goal is to make the contract state easier to inspect and the claim flow
 Payees can open the app, review their split information, and submit a claim when funds are available for release.
 
 ## Features
+
+- Base Mini App interface
+- Split status displayed prominently
+- Payee ratio inspection
+- Release information display
+- `release()` claim support
+- Base Mainnet contract integration
+- Farcaster metadata support
+- RainbowKit and WalletConnect configuration through environment variables

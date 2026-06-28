@@ -102,3 +102,13 @@ npm run dev
 ```
 
 Then open the local URL shown in your terminal.
+
+## Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+## Deployment

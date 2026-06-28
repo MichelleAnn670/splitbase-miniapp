@@ -28,3 +28,15 @@ Payees can open the app, review their split information, and submit a claim when
 - Base Mainnet contract integration
 - Farcaster metadata support
 - RainbowKit and WalletConnect configuration through environment variables
+
+## Network
+
+This project targets Base Mainnet only.
+
+Contract address:
+
+`0xa128bd5452a5dd6e945927b12563c687794b0bfb`
+
+## Requirements
+
+Before running the project locally, install:

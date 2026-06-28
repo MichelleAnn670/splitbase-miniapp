@@ -112,3 +112,13 @@ npm run build
 ```
 
 ## Deployment
+
+The project can be deployed with Vercel.
+
+Deploy a preview:
+
+```bash
+vercel
+```
+
+Deploy to production:

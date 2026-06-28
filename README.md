@@ -60,3 +60,14 @@ npm install
 ```
 
 ## Environment Setup
+
+Create a local environment file from the example file:
+
+```bash
+cp .env.example .env.local
+```
+
+Update `.env.local` with the required values:
+
+```bash
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=

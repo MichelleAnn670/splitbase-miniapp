@@ -40,3 +40,13 @@ Contract address:
 ## Requirements
 
 Before running the project locally, install:
+
+- Node.js
+- npm
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/MichelleAnn670/splitbase-miniapp.git
